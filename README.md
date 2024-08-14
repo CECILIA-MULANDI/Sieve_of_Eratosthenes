@@ -1,1 +1,1 @@
-# Sieve_of_Eratosthenes
+The `sieve` function implements the Sieve of Eratosthenes algorithm to find all prime numbers up to a specified limit. It initializes a boolean vector where each index represents whether that number is prime, initially setting all indices to `true` except for 0 and 1. The function then iterates through each number starting from 2, marking all multiples of each prime number as `false`. Finally, it collects and returns the indices of the vector that remain `true`, which correspond to the prime numbers.
